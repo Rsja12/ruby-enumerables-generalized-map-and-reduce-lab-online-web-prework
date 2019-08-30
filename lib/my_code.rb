@@ -12,9 +12,9 @@ def map(array)
 end
 
 
-def reduce(array, sv=nil)
+def reduce(array, starting_value=nil)
   if sv
-    sum = sv 
+    sum = starting_value 
     i = 0 
   else 
     sum = array[0] 
